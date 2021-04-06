@@ -1,0 +1,402 @@
+.menu {
+  width: 15px;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  right: 10px;
+  top:10px;
+  box-shadow: 0px 0px 20px -18px black;
+  cursor: pointer;
+}
+
+.menu-frame {
+  width: 180px;
+  height: auto;
+  box-shadow: 0px 0px 20px -14.7px black;
+  background-color: white;
+  position: absolute;
+  right:30px;
+  top:30px;
+  padding: 10px;
+  line-height: 0.9;
+}
+
+.menu-item {
+  height:30px;
+  cursor: pointer;
+}
+
+.menu-item > h3{
+  margin-top: 6px;
+}
+
+
+.img-u {
+  background-color: rgb(242, 242, 242);
+  width: 20vh;
+  height: 20vh;
+  position: relative;
+  left: 50%;
+  margin-left: -10vh;
+}
+
+.img-u > img {
+  width: 60%;
+  height: 60%;
+  position: absolute;
+  left: 50%;
+  margin-left: -30%;
+  top: 50%;
+  margin-top: -30%;
+}
+
+.code-frame {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(56, 56, 56, 0.7);
+  z-index: 100;
+}
+
+.code {
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  margin-left: -40%;
+  top:60px;
+  transform: translateY(-780px);
+}
+
+.code-ti {
+  margin-left: 20px;
+  margin-top:10px;
+  font-size: 60px;
+}
+
+.code-sub {
+  margin-left: 20px;
+}
+
+.code-close {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(226, 32, 32);
+  position: absolute;
+  right: -10px;
+  top:-10px;
+}
+
+
+.G-login {
+  width: 180px;
+  background-color: rgb(247, 247, 247);
+  height: 50px;
+  line-height: 30px;
+  padding: 10px;
+}
+
+.in-e {
+  height: 20px;
+  width: 50%;
+}
+
+.btn {
+  width: 30%;
+  height: 30px;
+  position: absolute;
+  z-index: 100;
+  cursor: pointer;
+  left: 50%;
+  margin-left: -15%;
+  bottom: -10px;
+}
+
+.G-login:hover {
+  box-shadow: 0px 0px 20px -15px black;
+  cursor: pointer;
+}
+
+.claim {
+  width: 80%;
+  height: 250px;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  margin-left: -40%;
+  top:50%;
+  margin-top: -125px;
+  z-index: 100;
+}
+
+.claim-btn {
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  margin-top: -150px;
+}
+
+.cl-bc {
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(42, 42, 42, 0.58);
+  position: absolute;
+}
+
+.G-login > img {
+  width: 30px;
+  float: left;
+}
+
+.claim-in > input {
+  display: inline-block;
+  border: 0px;
+  width: 40%;
+  font-size: 30px;
+  border-bottom: 1px solid black;
+}
+
+.claim-in {
+  width: 70%;
+  margin-top: -30px;
+  height: 90px;
+  line-height: 90px;
+  display: inline-block;
+}
+
+.claim-te {
+  position: absolute;
+  top:10px;
+  left: 20px;
+}
+
+.code-text-frame > textarea {
+  width: 80%;
+  height: 110px;
+  resize: none;
+  padding: 10px;
+}
+
+.code-text-frame {
+  width: 33%;
+  height: 70%;
+  position: relative;
+  float: left;
+}
+
+.code-text-frame > h1 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+.space {
+  margin-top: 5px;
+}
+
+hr {
+  border: 0px;
+  height: 1px;
+  margin-bottom: 15px !important;
+  background-color: rgb(244, 244, 244);
+}
+
+.menu-img {
+  margin-left: 20px;
+  float: left;
+  height: 100%;
+}
+
+html * {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  min-width: 0px;
+}
+
+html, body {
+  overflow: hidden;
+}
+
+
+.login{
+  width: 90px;
+  height: 30px;
+}
+
+.sel {
+  width:100%;
+  height:35px;
+  border:0px;
+  padding:5px;
+  margin-bottom:10px;
+}
+
+button {
+  border: 0px;
+  border-radius: 30px;
+}
+
+.input-1 {
+  width:46%;
+  margin-bottom:10px;
+}
+
+.input-2 {
+  position: absolute;
+  right: 0px;
+  width:46%;
+}
+
+.input {
+  width:100%;
+  height: 200px;
+  resize:none;
+}
+
+.submit {
+  margin-left:50px;
+  width:80%;
+  position: relative;
+}
+
+.sub-button {
+  width:150px;
+  height:40px;
+  cursor:pointer;
+  position: absolute;
+  right: 0px;
+}
+
+.bc {
+  color: white;
+  background: #8E2DE2;
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+background: linear-gradient(to right, #4A00E0, #8E2DE2);
+}
+
+
+.info {
+  height: 26px;
+  font-size: 15px;
+  padding: 0px 15px;
+}
+
+.text {
+  margin-left:40px;
+}
+
+.ds {
+ margin-top:50px;
+ font-size:70px;
+}
+
+.bc-n {
+  background-color: rgb(244, 244, 244);
+}
+
+.tag > h3 {
+  padding: 1px 13px;
+  line-height: 21.6px;
+  font-size: 15px;
+  margin: 5px 2px;
+}
+input, textarea, select {-webkit-border-radius:0;-webkit-appearance:none;}
+
+.frame {
+  -ms-user-select: none; -moz-user-select: -moz-none; -webkit-user-select: none; -khtml-user-select: none; user-select:none;
+  margin: 30px 0px;
+  padding: 20px;
+  position: relative;
+  left: 50%;
+  width: 80%;
+  margin-left: -40%;
+  background-color: white;
+  border: 0.01px rgb(241, 241, 241) solid;
+}
+
+p {
+  max-height: 210px;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 9;
+  -webkit-box-orient: vertical;
+  cursor: pointer;
+}
+
+
+  .title {
+    width: 90%;
+  }
+
+.bc-2 {
+  background-color: rgba(241, 241, 241, 1);
+  border: 0.01px rgb(241, 241, 241) solid;
+}
+
+
+input {
+  padding: 5px;
+}
+
+
+.left {
+  overflow: hidden;
+  float: left;
+  position: relative;
+  width: 40%;
+  height: 100vh;
+  background-color:  rgb(249, 249, 249);
+  white-space:nowrap;
+}
+.right {
+  background-color:  rgb(246, 246, 246);
+  float: right;
+  position: relative;
+  width: 60%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+h1, h2, h3, h4, h5, h6 {display: inline-block;}
+.ani {transition: 0.8s;}
+.ce {text-align: center;}
+.ri {text-align: right;}
+.le {text-align: left;}
+.b1 {font-weight: 100}
+.b2 {font-weight: 200}
+.b3 {font-weight: 300}
+.b4 {font-weight: 400}
+.b5 {font-weight: 500}
+.b6 {font-weight: 600}
+.b7 {font-weight: 700}
+.b8 {font-weight: 800}
+.b9 {font-weight: 900}
+.f1 {font-size: 10px;}
+.f2 {font-size: 15px;}
+.f3 {font-size: 20px;}
+.f4 {font-size: 25px;}
+.f5 {font-size: 30px;}
+.f6 {font-size: 35px;}
+.f7 {font-size: 40px;}
+
+
+.shadow {
+  box-shadow: 0px 0px 20px -20px black;
+}
+
+.blur {
+  backdrop-filter:blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.r1 {border-radius: 5px;}
+.r2 {border-radius: 10px;}
+.r3 {border-radius: 15px;}
+
+.rf {border-radius: 100%;}
