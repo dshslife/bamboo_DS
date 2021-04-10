@@ -58,6 +58,10 @@
   z-index: 100;
 }
 
+.de {
+  margin: 0px !important;
+}
+
 .code {
   width: 80%;
   height: 80%;
@@ -78,17 +82,6 @@
 .code-sub {
   margin-left: 20px;
 }
-
-.code-close {
-  cursor: pointer;
-  width: 30px;
-  height: 30px;
-  background-color: rgb(226, 32, 32);
-  position: absolute;
-  right: -10px;
-  top:-10px;
-}
-
 
 .G-login {
   width: 180px;
@@ -217,10 +210,6 @@ html * {
   min-width: 0px;
 }
 
-html, body {
-  overflow: hidden;
-}
-
 
 .login{
   width: 90px;
@@ -260,7 +249,18 @@ button {
 .submit {
   margin-left:50px;
   width:80%;
+  margin-bottom: 100px;
   position: relative;
+}
+
+.code-close {
+  position: absolute;
+  right: -5px;
+  top:-5px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  background-color: red;
 }
 
 .sub-button {
@@ -284,6 +284,16 @@ background: linear-gradient(to right, #4A00E0, #8E2DE2);
   font-size: 15px;
   padding: 0px 15px;
 }
+.right::-webkit-scrollbar {
+    width: 15px;
+    box-shadow: 0px 0px 10px -15px black;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.left::-webkit-scrollbar {
+  display: none;
+}
 
 .text {
   margin-left:40px;
@@ -291,7 +301,7 @@ background: linear-gradient(to right, #4A00E0, #8E2DE2);
 
 .ds {
  margin-top:50px;
- font-size:70px;
+ font-size: 5vw;
 }
 
 .bc-n {
@@ -315,10 +325,12 @@ input, textarea, select {-webkit-border-radius:0;-webkit-appearance:none;}
   width: 80%;
   margin-left: -40%;
   background-color: white;
+  cursor: pointer;
   border: 0.01px rgb(241, 241, 241) solid;
 }
 
 p {
+  user-select: auto;
   max-height: 210px;
   word-wrap: break-word;
   text-overflow: ellipsis;
@@ -326,7 +338,6 @@ p {
   display: -webkit-box;
   -webkit-line-clamp: 9;
   -webkit-box-orient: vertical;
-  cursor: pointer;
 }
 
 
@@ -346,7 +357,7 @@ input {
 
 
 .left {
-  overflow: hidden;
+  overflow-x: hidden;
   float: left;
   position: relative;
   width: 40%;

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>대전대신고 대나무숲</title>
+  <link rel="stylesheet" media="(max-width:10000px) and (min-width: 768px)" href="/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="/mobile.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div style="width:100vw; overflow:hidden;">
+    <h1 class="code-ti night">코드 발급 페이지</h1>
+    <h5 class="f2 b2 code-sub night">이 페이지에서 코드를 발급 받은 후<br>글을 작성하실 수 있습니다.</h5>
+    <br><br><br><br>
+    <div class="code-r1 ani de">
+      <div class="code-text-frame ce" style="border-right: 0.1px rgb(237, 237, 237) solid;">
+        <h1 class="night">Step1</h1>
+        <h5 class="f2 b1 night">| 로그인</h5>
+        <br><br>
+        <div class="img-u rf">
+          <img src="/img/user.png" alt="유저" width="20%" class="">
+        </div><br>
+        <button class="G-login ani shadow r1 f2 b5"><img src="/img/search.svg" alt="구글 로고">구글 로그인</button><br>
+        <h5 class="b1 f1 night">or</h5><br>
+        <input type="email" class="r1 shadow ce bc-2 in-e" placeholder="email을 입력하세요."><br><br>
+        <button class="bc f2 b5 btn" id="confirm-1">확인</button><br><br>
+      </div>
+
+      <div class="code-text-frame ce" style="border-right: 0.1px rgb(237, 237, 237) solid;">
+        <h1 class="night">Step2</h1>
+        <h5 class="f2 b1 night">| 메일인증</h5><br><br>
+        <div class="img-u rf">
+          <img src="/img/email.png" alt="유저" width="20%" class="">
+        </div><br><br>
+        <label class="night">확인 코드 입력</label><br><br>
+        <input placeholder="코드를 입력해주세요." class="in-e r1 shadow ce bc-2"><br><br>
+        <button class="bc f2 b5 btn" id="confirm-2">확인</button><br><br>
+      </div>
+
+      <div class="code-text-frame ce">
+        <h1 class="night">Step3</h1>
+        <h5 class="f2 b1 night">| 코드 발급</h5><br><br>
+        <div class="img-u rf">
+          <img src="/img/programming.svg" alt="유저" width="20%" class="">
+        </div><br><br>
+        <textarea class="bc-2 r2 shadow ce" readonly placeholder="Key 발급 대기중"></textarea><br>
+        <h5 class="f1 b2 night" style="margin-bottom:10px;">발급된 키는 자동으로 LocalStorage에 <br> 안전하게 저장됩니다.</h5>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/script.js"></script>
+
+</html>
