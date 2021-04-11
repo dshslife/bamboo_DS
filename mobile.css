@@ -10,9 +10,6 @@ html, body {
   overflow-x: hidden;
 }
 
-
-
-
 .menu {
   width: 15px;
   position: fixed;
@@ -70,6 +67,7 @@ html, body {
 }
 
 .code-text-frame > textarea {
+
   width: 80%;
   height: 110px;
   resize: none;
@@ -228,7 +226,8 @@ hr {
   width: 95%;
 }
 
-p {
+
+.p {
   max-height: 70px;
   word-wrap: break-word;
   text-overflow: ellipsis;
@@ -323,6 +322,7 @@ background: linear-gradient(to right, #4A00E0, #8E2DE2);
   margin-top: 10px;
   resize: none;
   height: 100px;
+  padding: 10px 0px;
 }
 
 .submit {

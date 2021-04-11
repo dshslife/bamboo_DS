@@ -1,0 +1,71 @@
+.control > div {
+  display: inline-block;
+}
+
+.control {
+  width: 90%;
+  position: relative;
+  left: 50%;
+  margin-left: -45%;
+  margin-top: 20px;
+}
+
+.le-img {
+  transform: rotate(180deg);
+  margin-right: 1.5px;
+}
+
+.ri-img {
+  margin-left: 1.5px;
+}
+
+.menu {
+  box-shadow: 0px 0px 7px -5px black;
+}
+
+
+.control > input {
+  padding: 5px 0px;
+  position: relative;
+  bottom: 5px;
+  height: 20px;
+  width: 50%;
+}
+
+.ri-img, .le-img {
+    filter: invert(0.5);
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.m-space {
+  height: 200px;
+}
+
+.left {
+  z-index: 100;
+  position: fixed !important;
+  bottom: -10px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px -11px black;
+  height: 90px;
+}
+
+button {
+  height: 0px;
+  width: 0px;
+  overflow: hidden;
+  padding: 0px !important;
+}
+
+.text {
+  height: 0px;
+  overflow: hidden;
+}
+
+
+.b-box {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(240, 240, 240);
+}
