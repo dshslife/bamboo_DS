@@ -8,7 +8,7 @@ if (is_N == null || is_N == 0) {
 }
 function night() {
   console.log(is_N);
-
+// 249   246
   if (!is_N) {
     $('html').css('background-color', 'rgb(45, 45, 45)');
     $('.left').css('background-color', 'rgb(45, 45, 45)');
@@ -28,23 +28,23 @@ function night() {
     $('.cl-in-n').css('border-bottom', '1px solid white');
     $('.bc-n').css('background-color', 'rgb(85, 85, 85)');
   } else {
-    $('html').css('background-color', 'white');
-      $('.left').css('background-color', 'rgb(249, 249, 249)');
-      $('.right').css('background-color', 'rgb(246, 246,246)');
-      $('.night').css('color', 'black');
-      $('.bc-2').css('background-color', 'rgba(241, 241, 241, 1)');
-      $('.bc-2').css('border', '0.01px rgb(241, 241, 241) solid');
-      $('.bc-2').css('color', 'black');
-      $('.frame').css('background-color', 'white');
-      $('.frame').css('color', 'black');
-      $('.frame').css('border', '0.01px rgb(241, 241, 241) solid');
-      $('.menu').css('background-color', 'rgb(255, 255, 255)');
-      $('.menu-frame').css('background-color', 'white');
-      $('.menu-img').css('filter', 'none');
-      $('.code').css('background-color', 'white');
-      $('.claim').css('background-color', 'white');
-      $('.cl-in-n').css('border-bottom', '1px solid black');
-      $('.bc-n').css('background-color', 'rgb(244, 244, 244)');
+    $('html').css('background-color', '');
+      $('.left').css('background-color', '');
+      $('.right').css('background-color', '');
+      $('.night').css('color', '');
+      $('.bc-2').css('background-color', '');
+      $('.bc-2').css('border', '');
+      $('.bc-2').css('color', '');
+      $('.frame').css('background-color', '');
+      $('.frame').css('color', '');
+      $('.frame').css('border', '');
+      $('.menu').css('background-color', '');
+      $('.menu-frame').css('background-color', '');
+      $('.menu-img').css('filter', '');
+      $('.code').css('background-color', '');
+      $('.claim').css('background-color', '');
+      $('.cl-in-n').css('border-bottom', '');
+      $('.bc-n').css('background-color', '');
   }
   is_N = !is_N;
   if (is_N) {

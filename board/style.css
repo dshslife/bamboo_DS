@@ -1,0 +1,41 @@
+.m-t {
+  height: 0px;
+  overflow: hidden;
+}
+
+
+.control > div {
+  display: inline-block;
+}
+
+.control {
+  width: 90%;
+  position: absolute;
+  left: 50%;
+  margin-left: -45%;
+  bottom: 200px;
+}
+
+
+.control > input {
+  padding: 5px 0px;
+  position: relative;
+  bottom: 5px;
+  height: 20px;
+  width: 50%;
+}
+
+
+.ri-img, .le-img {
+    filter: invert(0.5);
+    margin-top: 10px;
+}
+
+img {
+  cursor: pointer;
+}
+
+.le-img {
+  transform: rotate(180deg);
+  margin-right: 1.5px;
+}
