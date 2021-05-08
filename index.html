@@ -1,153 +1,134 @@
 <!DOCTYPE html>
 <html lang="ko" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>대신고 대나무숲</title>
-    <link rel="stylesheet" media="(max-width:10000px) and (min-width: 768px)" href="/css/style.css">
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="/css/mobile.css">
-    <link rel="stylesheet" href="/css/share.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-  </head>
-  <body>
 
-    <div class="left shadow ani">
-  <div class="blur cl-bc">
-    <div class="code-close-m rf ce"></div>
+<head>
+  <meta charset="utf-8">
+  <title>대신고 대나무숲</title>
+  <link rel="stylesheet" media="(max-width:10000px) and (min-width: 768px)" href="/css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="/css/mobile.css">
+  <link rel="stylesheet" href="/css/share.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
 
-    <div class="claim r2 ce shadow ani">
-      <div class="code-close rf ce"></div>
-          <h1 class="f4 b7 claim-te le night">신고할 게시물의<br>번호를 입력해 주세요.</h1><br><br><br><br><br>
-          <div class="f7 b7 claim-in ce">
-              <h3 class="night">#</h3><input type="number" class="ce f1 b1 night cl-in-n" style="background-color:rgba(0, 0, 0, 0);">
-          </div><br><br>
-          <button class="bc f2 b5 claim-btn">신고하기</button>
+<body>
+
+  <div class="left shadow ani">
+    <div class="blur cl-bc">
+      <div class="code-close-m rf ce"></div>
+
+      <div class="claim r2 ce shadow ani">
+        <div class="code-close rf ce"></div>
+        <h1 class="f4 b7 claim-te le night">신고할 게시물의<br>번호를 입력해 주세요.</h1><br><br><br><br><br>
+        <div class="f7 b7 claim-in ce">
+          <h3 class="night">#</h3><input type="number" class="ce f1 b1 night cl-in-n" style="background-color:rgba(0, 0, 0, 0);">
+        </div><br><br>
+        <button class="bc f2 b5 claim-btn">신고하기</button>
+      </div>
+    </div>
+
+
+    <img src="img/more.svg" alt="메뉴바 로딩중" class="menu rf  shadow2 ani">
+    <div class="menu-frame r2 ce night shadow2">
+      <div class="space"></div>
+      <div class="menu-item" id="Key">
+        <img src="img/key.svg" alt="키" class="menu-img">
+        <h3>키 발급</h3>
+      </div><br>
+      <hr>
+
+      <div class="menu-item">
+        <img src="img/rubbish.svg" alt="키" class="menu-img">
+        <h3>글 삭제</h3>
+      </div><br>
+      <hr>
+
+
+      <div class="menu-item" id="Remove">
+        <img src="img/exclamation.svg" alt="키" class="menu-img">
+        <h3>신고하기</h3>
+      </div><br>
+      <hr>
+
+      <div class="menu-item" id="Night">
+        <img src="img/moon.svg" alt="키" class="menu-img">
+        <h3>야간모드</h3>
+      </div>
+
+
+      <div class="space"></div>
+
+    </div>
+
+
+    <div class="text">
+      <h1 class="ds night ani">대전대신고<br>대나무숲</h1><br>
+      <h5 class="f2 b2 ds-sub night ani">대전 대신고의 소식을 쉽고 빠르게 전하는<br>대신고 학생 커뮤니티입니다.</h5>
+
+    </div>
+    <br><br>
+
+    <div class="submit ani">
+      <select class="shadow r1 ce bc-2 sel ani">
+        <option value="0">자유</option>
+        <option value="1">궁금증</option>
+        <option value="2">토론</option>
+        <option value="3">진로진학</option>
+        <option value="4">학교생활</option>
+      </select><br>
+      <input class="r1 shadow ce bc-2 input-1 ani" maxlength="20" placeholder="제목(최대 20자)"><input type="password" placeholder="비밀번호" class="ani r1 shadow ce bc-2 input-2"><br>
+      <textarea class="input r1 bc-2 ce shadows ani" placeholder="본문을 입력하세요."></textarea>
+      <div class="alert ce f2 b4 ani">경고</div>
+      <br><br>
+      <button class="bc f2 b5 sub-button">글 작성하기</button>
     </div>
   </div>
 
 
-      <img src="img/more.svg" alt="메뉴바 로딩중" class="menu rf  shadow2">
-      <div class="menu-frame r2 ce night shadow2">
-          <div class="space"></div>
-        <div class="menu-item" id="Key">
-          <img src="img/key.svg" alt="키" class="menu-img">
-            <h3>키 발급</h3>
-        </div><br><hr>
-
-        <div class="menu-item">
-          <img src="img/rubbish.svg" alt="키" class="menu-img">
-            <h3>글 삭제</h3>
-        </div><br><hr>
-
-
-        <div class="menu-item" id="Remove">
-          <img src="img/exclamation.svg" alt="키" class="menu-img">
-            <h3>신고하기</h3>
-        </div><br><hr>
-
-        <div class="menu-item"  id="Night">
-          <img src="img/moon.svg" alt="키" class="menu-img">
-            <h3>야간모드</h3>
-        </div>
+  <div class="right ani">
+    <div class="frame r2 shadow ani">
+      <h1>사용법 정리</h1><br>
+      <ol start="1" style="margin-left:30px;">
+        <li>긴글 더블 클릭 시, 늘어남.(한번 클릭하면 게시글 내용을 복사하는 것이 여려움)</li>
+        <li>push(게시물 번호, 제목, 작성 시간, 내용, 게시판, 삽입 위치)</li>
+        <li>삽입 위치 = 1이면 앞쪽에 추가, = 0이면 뒤에 추가</li>
+        <li>야간모드 자동으로 연동</li>
+        <li>코드 한번 발급하면, 자동으로 LocalStorage에 추가하여 게시물 작성시 자동으로 비밀번호 칸에 입력될 수 있도록 함.</li>
+        <li>게시글 작성시 줄바꿈은 자동으로< br >로 바뀜</li>
+        <li>PC/MOBILE UI 맞춤 최적화</li>
+      </ol>
+    </div>
 
 
-        <div class="space"></div>
-
+    <div class="frame r2 shadow ani">
+      <div class="info r3 bc" style="display:inline-block; line-height: 20px;">
+        <h5 class="b3">#1번째 코드</h5>
       </div>
-
-
-      <div class="text">
-        <h1 class="ds night">대전대신고<br>대나무숲</h1><br>
-        <h5 class="f2 b2 ds-sub night">대전 대신고의 소식을 쉽고 빠르게 전하는<br>대신고 학생 커뮤니티입니다.</h5>
-
-      </div>
-      <br><br>
-
-      <div class="submit">
-        <select class="shadow r1 ce bc-2 sel">
-          <option value="0">자유</option>
-            <option value="1">궁금증</option>
-            <option value="2">토론</option>
-            <option value="3">진로진학</option>
-            <option value="4">학교생활</option>
-        </select><br>
-        <input class="r1 shadow ce bc-2 input-1" maxlength="20" placeholder="제목(최대 20자)"><input type="password" placeholder="비밀번호" class="r1 shadow ce bc-2 input-2"><br>
-        <textarea class="input r1 bc-2 ce shadows" placeholder="본문을 입력하세요."></textarea>
-        <br><br>
-          <button class="bc f2 b5 sub-button">글 작성하기</button>
+      <h5 class="b1" style="color:grey; margin-left:10px;">2021년 5월 24일 오후 6시 36분 52초</h5>
+      <div class="r1 ">
+        <h1 class="f4 title" style="padding-top:5px; padding-bottom:20px;">무야호로로로로로로로로로롤ㄹ로로로</h1><br>
+        <p class="p">
+          짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글짧은글
+        </p>
+      </div><br>
+      <div class="tag">
+        <h3 class="r3 b3 bc-n night ani">#학교생활</h3>
+        <h3 class="r3 b3 bc-n night ani">#진로진학</h3>
       </div>
     </div>
 
 
-    <div class="right ani">
 
-      <div class="frame r2 shadow">
-        <div class="info r3 bc" style="display:inline-block; line-height: 20px;">
-            <h5 class="b3">#1번째 코드</h5>
-        </div>
-        <h5 class="b1" style="color:grey; margin-left:10px;">2021년 5월 24일 오후 6시 36분 52초</h5>
-        <div class="r1 ">
-            <h1 class="f4 title" style="padding-top:5px; padding-bottom:20px;">무야호로로로로로로로로로롤ㄹ로로로</h1><br>
-            <p class="ani p">짧은글</p>
-        </div><br>
-        <div class="tag">
-            <h3 class="r3 b3 bc-n night">#학교생활</h3>
-            <h3 class="r3 b3 bc-n night">#진로진학</h3>
-        </div>
-      </div>
-
-
-      <div class="frame r2 shadow">
-        <div class="info r3 bc" style="display:inline-block; line-height: 20px;">
-            <h5 class="b3">#1번째 코드</h5>
-        </div>
-        <h5 class="b1" style="color:grey; margin-left:10px;">2021년 5월 24일 오후 6시 36분 52초</h5>
-        <div class="r1 ">
-            <h1 class="f4 title" style="padding-top:5px; padding-bottom:20px;">무야호로로로로로로로로로롤ㄹ로로로</h1><br>
-            <p class="ani p">장문 TEST 장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST</p>
-        </div><br>
-        <div class="tag">
-            <h3 class="r3 b3 bc-n night">#학교생활</h3>
-            <h3 class="r3 b3 bc-n night">#진로진학</h3>
-        </div>
-      </div>
-
-      <div class="frame r2 shadow">
-        <div class="info r3 bc" style="display:inline-block; line-height: 20px;">
-            <h5 class="b3">#1번째 코드</h5>
-        </div>
-        <h5 class="b1" style="color:grey; margin-left:10px;">2021년 5월 24일 오후 6시 36분 52초</h5>
-        <div class="r1 ">
-            <h1 class="f4 title" style="padding-top:5px; padding-bottom:20px;">무야호로로로로로로로로로롤ㄹ로로로</h1><br>
-            <p class="ani p">장문 TEST 장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST</p>
-        </div><br>
-        <div class="tag">
-            <h3 class="r3 b3 bc-n night">#학교생활</h3>
-            <h3 class="r3 b3 bc-n night">#진로진학</h3>
-        </div>
-      </div>
-      <div class="frame r2 shadow">
-        <div class="info r3 bc" style="display:inline-block; line-height: 20px;">
-            <h5 class="b3">#1번째 코드</h5>
-        </div>
-        <h5 class="b1" style="color:grey; margin-left:10px;">2021년 5월 24일 오후 6시 36분 52초</h5>
-        <div class="r1 ">
-            <h1 class="f4 title" style="padding-top:5px; padding-bottom:20px;">무야호로로로로로로로로로롤ㄹ로로로</h1><br>
-            <p class="ani p">장문 TEST 장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST장문 TEST</p>
-        </div><br>
-        <div class="tag">
-            <h3 class="r3 b3 bc-n night">#학교생활</h3>
-            <h3 class="r3 b3 bc-n night">#진로진학</h3>
-        </div>
-      </div>
-
-    <br><br><br></div>
+    <br><br><br>
+  </div>
 
 
 
-  </body>
-  <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="/night.js"></script>
-  <script type="text/javascript" src="script.js"></script>
+</body>
+<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/js/night.js"></script>
+<script type="text/javascript" src="/js/script.js"></script>
+<script type="text/javascript" src="/js/push.js"></script>
+
 </html>

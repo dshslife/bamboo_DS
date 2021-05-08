@@ -24,9 +24,6 @@
 
 
 
-
-
-
 .cl-bc {
   width: 100vw;
   height: 100vh;
@@ -165,6 +162,11 @@ select {
 .menu-frame {
   right:30px;
   position: fixed;
+}
+
+.menu {
+  position: fixed !important;
+  z-index: 1000;
 }
 
 .input {

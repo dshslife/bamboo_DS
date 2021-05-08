@@ -216,11 +216,12 @@ input, textarea, select {-webkit-border-radius:0;-webkit-appearance:none;}
 }
 
 .p {
-  max-height: 210px;
+  width: 100%;
   word-wrap: break-word;
+  max-height: 210px;
   text-overflow: ellipsis;
-  overflow: hidden;
   display: -webkit-box;
+  overflow: hidden;
   -webkit-line-clamp: 9;
   -webkit-box-orient: vertical;
 }
@@ -240,16 +241,17 @@ input, textarea, select {-webkit-border-radius:0;-webkit-appearance:none;}
 
 
 .left {
-
   float: left;
   position: relative;
   width: 30%;
-  min-width: 350px;
+  height: 100vh;
   overflow-x: hidden;
   background-color:  rgb(249, 249, 249);
   white-space:nowrap;
 }
 .right {
+  width: 70%;
+  height: 100vh;
   background-color:  rgb(246, 246, 246);
   float: right;
   position: relative;
