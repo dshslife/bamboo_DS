@@ -90,7 +90,7 @@
   overflow: hidden;
   position: relative;
   width: 100vw;
-  background-color:  #2BAE66;
+  background-color:  rgb(249, 249, 249);
   white-space:nowrap;
 }
 
@@ -104,7 +104,7 @@
   width: 100vw;
   text-align: center;
   position: relative;
-  background-color:  #2BAE66;
+  background-color:  rgb(246, 246, 246);
   padding-bottom: 60px;
   padding-top:20px;
 }
