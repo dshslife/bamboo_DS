@@ -246,13 +246,13 @@ input, textarea, select {-webkit-border-radius:0;-webkit-appearance:none;}
   width: 30%;
   height: 100vh;
   overflow-x: hidden;
-  background-color:  #2BAE66;
+  background-color:  rgb(249, 249, 249);
   white-space:nowrap;
 }
 .right {
   width: 70%;
   height: 100vh;
-  background-color:  #2BAE66;
+  background-color:  rgb(246, 246, 246);
   float: right;
   position: relative;
   overflow-y: scroll;
