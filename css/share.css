@@ -8,7 +8,6 @@ html * {
 }
 
 html, body {
-  overflow-x: hidden;
   background-color:  rgb(246, 246, 246);
 }
 
@@ -21,6 +20,22 @@ html, body {
   background-color: rgba(46, 46, 46, 0.71);
 }
 
+
+.debug_ios {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  min-height: 30px;
+}
+
+.top {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index: 99;
+}
 
 .G-login > img {
   width: 30px;
@@ -213,7 +228,18 @@ h1, h2, h3, h4, h5, h6 {display: inline-block;}
 }
 
 .shadow2 {
-  box-shadow: 0px 0px 20px -17.8px black;
+  box-shadow: 0px 0px 20px -13px black;
+}
+
+
+.top > img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 50%;
+  margin-left: -10px;
+  top:50%;
+  margin-top:-10px;
 }
 
 input {

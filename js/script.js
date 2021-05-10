@@ -10,10 +10,24 @@ $('.alert').css('opacity', '0');
 $('.cl-bc').fadeOut(0);
 $('.claim').css('transform', 'translateY(780px)');
 
+//맨위로
+$('.top').on('click', function() {
+  if (!is_M) {
+    $('.right').animate({
+      scrollTop: $('.right').offset().top
+    }, 500);
+  } else {
+    $('html, body').animate({
+      scrollTop: $('.right').offset().top
+    }, 500);
+
+    console.log($('.right').scrollTop);
+  }
+});
+
 
 //PC  MOBILE 구분
-
-$(window).resize(function check() {
+function check() {
   if ($(document).width() < 768) {
     is_M = 1;
   } else {
@@ -21,12 +35,19 @@ $(window).resize(function check() {
   }
   console.log(is_M);
 
-
   if (!is_M) {
     //PC
-
+    console.log(window.innerHeight)
+    $('.left').css('height', `${window.innerHeight}px`);
+    $('.right').css('height', `${window.innerHeight}px`);
+  } else {
+    $('.left').css('height', ``);
+    $('.right').css('height', ``);
   }
-});
+}
+
+$(window).resize(check);
+check();
 
 //야간모드
 $('#Night').on('click', function() {
@@ -93,7 +114,7 @@ $('#Remove').on('click', function() {
 
 
 //더블클릭시 자세히 보기
-$(document).on('dblclick','.frame', function() {
+$(document).on('dblclick', '.frame', function() {
   if (window.location.pathname.indexOf('board') == 1) return 0;
   console.log($(this).children('.r1').children('p'));
   var obj = $(this).children('.r1').children('p');

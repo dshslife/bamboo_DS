@@ -9,6 +9,11 @@
 }
 
 
+.top {
+  right: 50%;
+  margin-right: -20px;
+  bottom: 20px;
+}
 
 .code-close-m {
   width: 100vw;
