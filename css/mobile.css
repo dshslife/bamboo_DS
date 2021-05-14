@@ -95,7 +95,7 @@
   overflow: hidden;
   position: relative;
   width: 100vw;
-  background-color:  rgb(249, 249, 249);
+  background-color:  rgb(181, 214, 146);
   white-space:nowrap;
 }
 
@@ -109,7 +109,7 @@
   width: 100vw;
   text-align: center;
   position: relative;
-  background-color:  rgb(246, 246, 246);
+  background-color:  rgb(163, 204, 163);
   padding-bottom: 60px;
   padding-top:20px;
 }
