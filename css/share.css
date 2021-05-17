@@ -1,4 +1,37 @@
+.btna > button {
+  width: 150px;
+  display: inline-block;
+  height: 35px;
+  cursor: pointer;
+  background-color: rgb(240, 240, 240);
+}
 
+.btna > button:hover {
+  background-color: #2bae66;
+  color:white;
+}
+
+
+.btna {
+  bottom: 20px;
+  width: 100%;
+  position: absolute;
+}
+
+.modal > .t {
+  max-width: 90%;
+  max-height: 60%;
+  overflow-y: scroll;
+}
+
+.t::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
 
 html * {
   font-family: 'Noto Sans KR', sans-serif;
@@ -11,6 +44,13 @@ html, body {
   background-color:  rgb(246, 246, 246);
 }
 
+.left {
+  background-color:  #2bae66;
+}
+
+.right {
+  background-color: #f2f7f3;
+}
 
 .code-frame {
   width: 100vw;

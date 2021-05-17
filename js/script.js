@@ -3,6 +3,16 @@ var flag = 0;
 var is_M = 0;
 $(".menu-frame").hide();
 
+//모달
+function open_modal() {
+    $('.modal').css('transform', "translateY(0px)");
+    $('.alert_modal').fadeIn();
+}
+$('.close').on('click', function() {
+  $('.modal').css('transform', "translateY(300px)");
+  $('.alert_modal').fadeOut();
+});
+
 
 //초기 설정
 $('.alert').css('height', '0px');

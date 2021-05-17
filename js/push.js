@@ -1,3 +1,5 @@
+var count = 0;
+
 //push(게시물 번호, 제목, 작성 시간, 내용, 게시판, 삽입 위치)
 function push(code, title, time, content, board, direction) { //direction1 > 1 = 상단에 추가 0 = 하단에 추가
   var html = '';
@@ -39,15 +41,18 @@ function debug(str) {
 
 //스크롤 구현
 function scr() {
-  var height = $('.right').scrollTop() + $('.right').height();
-  console.log($('.right')[0].scrollHeight, height * 0.9);
-  if ($('.right')[0].scrollHeight <= height + 1000) {
-    push(1, '무한 스크롤 테스트', 1, '무한 스크롤 테스트', 1, 0);
+  if (!is_M) {
+    var height = $('.right').scrollTop() + $('.right').height();
+    if ($('.right')[0].scrollHeight <= height + 300) {
+      push(1, '무한 스크롤 테스트', 1, '무한 스크롤 테스트', 1, 0);
+    }
+  } else {
+    console.log(window.innerHeight + window.scrollY, document.body.offsetHeight);
+    if ((window.innerHeight + window.scrollY + 900) >= document.body.offsetHeight) {
+      count++;
+      push(count, '무한 스크롤 테스트', 1, '무한 스크롤 테스트', 1, 0);
+    }
   }
 }
-$('.right').scroll(scr);
-$(window).scroll(function(){
-  if ($(window).scrollTop() <= $(document).height() - $(window).height() + 1) {
-    push(1, '무한 스크롤 테스트', 1, '무한 스크롤 테스트', 1, 0);
-  }
-});
+  $('.right').scroll(scr);
+  $(window).scroll(scr);
